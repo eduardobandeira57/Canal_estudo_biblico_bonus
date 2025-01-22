@@ -1,0 +1,461 @@
+body{
+    background-color: rgb(33, 170, 250);
+  }
+  .caixa{
+    position: absolute;
+    background-color: aqua;
+    width: 250px;
+    padding: 10px;
+    border-top-color: black 5px;
+    padding: 15px 10px 15px 10px;
+    margin-left: 30%;
+    border-radius: 15px;
+  }
+  .btn{
+    margin-top: 15px;
+    font-size: 25px;
+    border-radius: 10px;
+    background-color: gold;
+    color: black;
+  }
+  .input{
+    font-size: 15px;
+    border-radius: 5px;
+
+  }
+  .menu{
+    display: none;
+    background-color: brown;
+  }
+  .menu1{
+    margin-top: -15px;
+    background-color: brown;
+  }
+  .a1{
+    cursor: pointer;
+    color: aliceblue;
+    font-size: 20px;
+  }
+  .a1:hover{
+    color: aqua;
+  }
+  .a2{
+    cursor: pointer;
+    color: aliceblue;
+    font-size: 20px;
+  }
+  .a2:hover{
+    color: aqua;
+  }
+    
+  .a3{
+    cursor: pointer;
+    color: aliceblue;
+    font-size: 20px;
+  }
+  .a3:hover{
+    color: aqua;
+  }
+  .tela1{
+    display: none;
+  }
+ 
+  .tela2{
+    display: none;
+  }
+  .barra{
+    background-color: goldenrod;
+    width: 100%;
+    height: 15px;
+    
+  }
+  .base1{
+    cursor: pointer;
+    
+    font-size: 10pxpx;
+    border-radius: 10px;
+    width: fit-content;
+    height: fit-content;
+    padding: 5px;
+    color: aliceblue;
+  }
+  .base1:hover{
+    color: gold;
+  }
+
+  .tab{
+    opacity: 0;
+    filter: blur(15px);
+    transform: translateX(-100px);
+    transition: all 3s;
+    padding: 5px;
+    background-color: chartreuse;
+    margin-left: 10%;
+    width: fit-content;
+    border-radius: 15px;
+  }
+  .som{
+    opacity: 0;
+    filter: blur(15px);
+    transform: translateX(-100px);
+    transition: all 3s;
+    margin-top: 10px;
+    margin-left: 180px;
+  }
+  .audio2{
+    display: none;
+  }
+  .lista{
+    display: none;
+   width: fit-content;
+   margin-top: 10px;
+   margin-left: 180px;
+   background-color: chartreuse;
+   border-radius: 15px;
+   padding: 10px;
+  }
+
+    
+  .show{
+    opacity: 1;
+    filter: blur(0);
+    transform: translateY(0);
+    transition: all 3s;
+  }
+  .l1{
+    cursor: pointer;
+  }
+  .l1:hover{
+    color: blue;
+  }
+  .l2{
+    cursor: pointer;
+  }
+  .l2:hover{
+    color: blue;
+  }
+  .l3{
+    cursor: pointer;
+  }
+  .l3:hover{
+    color: blue;
+  }
+  .l4{
+    cursor: pointer;
+  }
+  .l4:hover{
+    color: blue;
+  }
+  .l5{
+    cursor: pointer;
+  }
+  .l5:hover{
+    color: blue;
+  }
+  .l6{
+    cursor: pointer;
+  }
+  .l6:hover{
+    color: blue;
+  }
+  .l7{
+    cursor: pointer;
+  }
+  .l7:hover{
+    color: blue;
+  }
+  .l8{
+    cursor: pointer;
+  }
+  .l8:hover{
+    color: blue;
+  }
+  .l9{
+    cursor: pointer;
+  }
+  .l9:hover{
+    color: blue;
+  }
+  .l10{
+    cursor: pointer;
+  }
+  .l10:hover{
+    color: blue;
+  }
+  .l11{
+    cursor: pointer;
+  }
+  .l11:hover{
+    color: blue;
+  }
+  .l12{
+    cursor: pointer;
+  }
+  .l12:hover{
+    color: blue;
+  }
+  .l13{
+    cursor: pointer;
+  }
+  .l13:hover{
+    color: blue;
+  }
+  .l14{
+    cursor: pointer;
+  }
+  .l14:hover{
+    color: blue;
+  }
+  .l15{
+    cursor: pointer;
+  }
+  .l15:hover{
+    color: blue;
+  }
+  .l16{
+    cursor: pointer;
+  }
+  .l16:hover{
+    color: blue;
+  }
+  .l17{
+    cursor: pointer;
+  }
+  .l17:hover{
+    color: blue;
+  }
+  .l18{
+    cursor: pointer;
+  }
+  .l18:hover{
+    color: blue;
+  }
+  .l19{
+    cursor: pointer;
+  }
+  .l19:hover{
+    color: blue;
+  }
+  .l20{
+    cursor: pointer;
+  }
+  .l20:hover{
+    color: blue;
+  }
+  .l21{
+    cursor: pointer;
+  }
+  .l21:hover{
+    color: blue;
+  }
+  .l22{
+    cursor: pointer;
+  }
+  .l22:hover{
+    color: blue;
+  }
+  .l23{
+    cursor: pointer;
+  }
+  .l23:hover{
+    color: blue;
+  }
+  .l24{
+    cursor: pointer;
+  }
+  .l24:hover{
+    color: blue;
+  }
+  .l25{
+    cursor: pointer;
+  }
+  .l25:hover{
+    color: blue;
+  }
+  .l26{
+    cursor: pointer;
+  }
+  .l26:hover{
+    color: blue;
+  }
+  .l27{
+    cursor: pointer;
+  }
+  .l27:hover{
+    color: blue;
+  }
+  .l28{
+    cursor: pointer;
+  }
+  .l28:hover{
+    color: blue;
+  }
+  .l29{
+    cursor: pointer;
+  }
+  .l29:hover{
+    color: blue;
+  }
+  .l30{
+    cursor: pointer;
+  }
+  .l30:hover{
+    color: blue;
+  }
+  .l31{
+    cursor: pointer;
+  }
+  .l31:hover{
+    color: blue;
+  }
+  .l32{
+    cursor: pointer;
+  }
+  .l32:hover{
+    color: blue;
+  }
+  .l33{
+    cursor: pointer;
+  }
+  .l33:hover{
+    color: blue;
+  }
+  .l34{
+    cursor: pointer;
+  }
+  .l34:hover{
+    color: blue;
+  }
+  .l35{
+    cursor: pointer;
+  }
+  .l35:hover{
+    color: blue;
+  }
+  .l36{
+    cursor: pointer;
+  }
+  .l36:hover{
+    color: blue;
+  }
+  .l37{
+    cursor: pointer;
+  }
+  .l37:hover{
+    color: blue;
+  }
+  .l38{
+    cursor: pointer;
+  }
+  .l38:hover{
+    color: blue;
+  }
+  .l39{
+    cursor: pointer;
+  }
+  .l39:hover{
+    color: blue;
+  }
+  .l40{
+    cursor: pointer;
+  }
+  .l40:hover{
+    color: blue;
+  }
+  .primeiro-audio{
+    display:  none;
+    background-image: url("https://i.gifer.com/65u.gif");
+    background-repeat: no-repeat;
+    height: 550px;
+    width: 80%;
+
+  }
+   #playpausebtn{
+    position: absolute;
+    cursor: pointer;
+    font-size: 15px;
+    margin-top: 200px;
+    margin-left: 2px;
+    padding: 5px;
+    color: black;
+    border-radius: 15px;
+  }
+  .corrente{
+    position: absolute;
+    margin-top: 185px;
+    margin-left: 180px;
+    padding: 5px;
+    font-size: 15ox;
+    color: black;
+  }
+  .duracao{
+    position: absolute;
+    margin-top: 185px;
+    margin-left: 220px;
+    padding: 5px;
+    font-size: 15ox;
+    color: black;
+
+  }
+  .voltar{
+    cursor: pointer;
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 110px;
+    padding: 5px;
+    border-radius: 15px;
+    font-size: 15px;
+    color: rgb(14, 14, 15)
+  
+
+
+  }
+  .proximo{
+    cursor: pointer;
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 260px;
+    padding: 5px;
+    border-radius: 15px;
+    font-size: 15px;
+    color: rgb(14, 14, 15)
+  
+
+  }
+  .opcao1{
+    display:none;
+    margin-left: 50px;
+  }
+  
+  
+  
+  @media(max-width: 350px){
+    .caixa{
+      margin-left: 3%;
+    }
+    .a1{
+    cursor: pointer;
+    color: aliceblue;
+    font-size: 10px;
+  }
+  .a2{
+    cursor: pointer;
+    color: aliceblue;
+    font-size: 10px;
+  }
+  .a3{
+    cursor: pointer;
+    color: aliceblue;
+    font-size: 10px;
+  }
+  .lista{
+    margin-left: 60px;
+  }
+  .primeiro-audio{
+    width: 1020px;
+    margin-left: -10px;
+    background-color: darkcyan;
+  }
+
+
+  }
