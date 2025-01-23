@@ -288,8 +288,7 @@ clearInterval(time)
   a3.addEventListener("click", () =>{
     document.querySelector(".som").classList.add("show")
     document.querySelector(".primeiro-audio").style.display="none"
-    audio.src=lovor[0]
-    audio.stop()
+    
     
   
   })
@@ -347,7 +346,11 @@ var correntTimermin="";
 var correntTimerseg="";
 var time=  setInterval(() => {
 
-
+var stop = document.querySelector(".stop")
+stop.addEventListener("click", () =>{
+  audio.src=lovor[0]
+    audio.stop()
+})
 
 
 
@@ -664,7 +667,7 @@ var proximo = document.querySelector(".proximo")
 
         if(audio.paused){
             audio.play();
-           playbtn.innerHTML="Pause &#9611;&#9611;" ;
+           playbtn.src="pause.jpg"
            var time1=  setInterval(() => {
   
   
@@ -697,7 +700,7 @@ var salva= correntTimerseg1= Math.floor(((((audio.currentTime)/60)%1)*60) )
          
         }else {
              audio.pause();                
-            playbtn.innerHTML="Play&#9658;";
+            playbtn.src="play.jpg";
             
         
           }  
