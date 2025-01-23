@@ -288,6 +288,10 @@ clearInterval(time)
   a3.addEventListener("click", () =>{
     document.querySelector(".som").classList.add("show")
     document.querySelector(".primeiro-audio").style.display="none"
+    audio.src=lovor[0]
+    audio.stop()
+    
+  
   })
 
 // sistema de audio -seleção----tela1---------
@@ -728,7 +732,10 @@ btn3.addEventListener("click", () =>{
 document.querySelector(".primeiro-audio").style.display="block"
 som.classList.remove("show")
 
+playbtn.innerHTML="Play&#9658;";
+
 })
+
 
   
 
