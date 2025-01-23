@@ -652,7 +652,7 @@ var proximo = document.querySelector(".proximo")
      var audio,playbtn, seek_bar;
      function initAudioPlayr(){
         audio = new Audio();
-        audio.src=lovor[troca]
+        audio.src=""
         audio.loop = true;
         audio.play();
         //mudar objeto referente
