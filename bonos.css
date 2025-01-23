@@ -374,16 +374,19 @@ body{
     position: absolute;
     cursor: pointer;
     font-size: 15px;
+    width: 25px;
+    height: 25px;
     margin-top: 200px;
     margin-left: 2px;
     padding: 5px;
+    background-color: aliceblue;
     color: black;
     border-radius: 15px;
   }
   .corrente{
     position: absolute;
     margin-top: 185px;
-    margin-left: 150px;
+    margin-left: 170px;
     padding: 5px;
     font-size: 15ox;
     color: black;
@@ -391,7 +394,7 @@ body{
   .duracao{
     position: absolute;
     margin-top: 185px;
-    margin-left: 180px;
+    margin-left: 210px;
     padding: 5px;
     font-size: 15ox;
     color: black;
@@ -401,7 +404,7 @@ body{
     cursor: pointer;
     position: absolute;
     margin-top: 200px;
-    margin-left: 110px;
+    margin-left: 120px;
     padding: 5px;
     border-radius: 15px;
     font-size: 15px;
@@ -414,7 +417,7 @@ body{
     cursor: pointer;
     position: absolute;
     margin-top: 200px;
-    margin-left: 220px;
+    margin-left: 250px;
     padding: 5px;
     border-radius: 15px;
     font-size: 15px;
@@ -425,6 +428,20 @@ body{
   .opcao1{
     display:none;
     margin-left: 50px;
+  }
+  .stop{
+    position: absolute;
+    cursor: pointer;
+    font-size: 15px;
+    width: 25px;
+    height: 25px;
+    margin-top: 200px;
+    margin-left: 50px;
+    padding: 5px;
+    background-color: aliceblue;
+    color: black;
+    border-radius: 15px;
+
   }
   
   
