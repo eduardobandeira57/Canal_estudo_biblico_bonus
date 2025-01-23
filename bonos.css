@@ -383,7 +383,7 @@ body{
   .corrente{
     position: absolute;
     margin-top: 185px;
-    margin-left: 180px;
+    margin-left: 150px;
     padding: 5px;
     font-size: 15ox;
     color: black;
@@ -391,7 +391,7 @@ body{
   .duracao{
     position: absolute;
     margin-top: 185px;
-    margin-left: 220px;
+    margin-left: 180px;
     padding: 5px;
     font-size: 15ox;
     color: black;
@@ -414,7 +414,7 @@ body{
     cursor: pointer;
     position: absolute;
     margin-top: 200px;
-    margin-left: 260px;
+    margin-left: 220px;
     padding: 5px;
     border-radius: 15px;
     font-size: 15px;
