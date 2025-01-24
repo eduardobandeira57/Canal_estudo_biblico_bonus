@@ -666,6 +666,7 @@ var proximo = document.querySelector(".proximo")
         
 
         if(audio.paused){
+            audio.src=lovor[troca]    
             audio.play();
            playbtn.src="pause.jpg"
            var time1=  setInterval(() => {
